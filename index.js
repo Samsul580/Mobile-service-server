@@ -109,6 +109,16 @@ client.connect(err => {
         })
     })
 
+
+    app.get('/orders', (req, res) => {
+        orderCollection.find()
+            .toArray((err, items) => {
+                res.send(items)
+            })
+    })
+
+
+
 });
 
 app.listen(port, () => {
