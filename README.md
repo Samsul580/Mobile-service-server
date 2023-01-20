@@ -1,6 +1,5 @@
 # Welcome to my phone service server site code
 
-## My phone service live site url: https://phone-service-eab6b.web.app/
 ## Fronted code link: https://github.com/Samsul580/Mobile-service-client
 
 ## Description
